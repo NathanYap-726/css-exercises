@@ -1,0 +1,26 @@
+.odd {
+    background-color:rgb(221, 125, 125); 
+    font-family:Verdana, "DejaVu Sans", sans-serif
+    
+}
+/* Be careful how that works. I had some difficulty using the rgb command cause it was sitting in bracket rgb(red, green, blue) Need to more selective I guess.
+Try to find out what the hell is happening there. Same thing with font family function. Why do some need quotes and some not.
+
+So after some reading it seems the syntax of the rgb function will always give all 3.
+the font-family function basically gives several choices for the browser to choose. The quotes appear on some the fonts is because there is white space so 
+DejaVu Sans needs it because there is whitespace instead of a hyphen. */
+
+#id-element{
+    color: blue;
+    font-size: 36px;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#id-element-two{
+    background-color: rgb(97, 238, 97);
+    font-size: 24px;
+    font-weight: bold;
+}
