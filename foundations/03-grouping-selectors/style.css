@@ -1,0 +1,23 @@
+.one {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.two {
+    background-color: yellow;
+}
+
+/*.three {
+
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif ;
+} So this isn't grouping. This is just chaining which is different.*/
+
+.one, 
+.two {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif ;
+}
+
+/* Don't forget the comma when grouping selectors!(I did)*/

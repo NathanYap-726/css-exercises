@@ -21,6 +21,5 @@ DejaVu Sans needs it because there is whitespace instead of a hyphen. */
 
 #id-element-two{
     background-color: rgb(97, 238, 97);
-    font-size: 24px;
     font-weight: bold;
 }
