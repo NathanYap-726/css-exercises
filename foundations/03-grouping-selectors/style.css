@@ -12,7 +12,7 @@
 
     font-size: 28px;
     font-family: Helvetica, 'Times New Roman', sans-serif ;
-} So this isn't grouping. This is just chaining which is different.*/
+} So this isn't grouping. This was just three different selectors.*/
 
 .one, 
 .two {
